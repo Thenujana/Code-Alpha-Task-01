@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body style="background-color: aliceblue;">
+    <center>
+        <h1>Cane Cruso</h1>
+    </center>
+    <img src="Animal images/cane-cruso.jpg" alt="" class="center">
+    <p>(Get the cursor on the picture to zoom)</p>
+
+    <h3>About</h3>
+    <p>The Cane Corso, also known as the Italian Mastiff, is a large and powerful dog breed known for its loyalty,
+        intelligence, and protective nature. Originating in Italy, the Cane Corso has a history as a working dog, used
+        for guarding property, livestock, and even serving as a companion in hunting. Their name "Cane Corso" translates
+        to "guardian dog" in Latin, which perfectly describes their natural instincts to protect their family and home.
+        Today, Cane Corsos are cherished as both guardians and loving family companions. <br><br>Cane Corsos are
+        muscular and athletic, with a commanding presence that exudes strength and confidence. Males typically stand
+        24–28 inches tall at the shoulder and weigh between 90–120 pounds, while females are slightly smaller. They have
+        a short, dense, and weather-resistant coat that is easy to maintain, and their coat colors can include black,
+        gray, fawn, red, and brindle patterns. Their expressive eyes, broad head, and square-shaped muzzle give them an
+        intelligent</p>
+    <h3>Here are some more pictures of Cane-Cruso</h3>
+    <div class="image-gallery">
+        <button class="gallery-button prev" onclick="changeImage(-1, 'caneCruso')">Previous</button>
+        <img id="caneCruso-gallery-image" src="Animal images/caneC01.jpg" width="721" alt="Click next to see more images">
+        <button class="gallery-button next" onclick="changeImage(1, 'caneCruso')">Next</button>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

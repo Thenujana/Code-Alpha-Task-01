@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body style="background-color:aliceblue">
+
+    <center>
+        <h1>Liberty statue</h1>
+    </center>
+    <img src="images/liberty new york.jpg" alt="" class="center">
+    <p>(Get the cursor on the picture to zoom)</p>
+    <p>The Statue of Liberty, officially named "Liberty Enlightening the World", is an iconic symbol of freedom,
+        democracy, and hope. Located on Liberty Island in New York Harbor, it stands as one of the most recognizable
+        landmarks in the United States and a globally admired cultural icon.</p>
+    <h3>Historical background</h3> <br>
+    <p>The statue was a gift from France to the United States, commemorating the enduring friendship between the two
+        nations and celebrating the centennial of American independence in 1876. It was designed by French sculptor
+        Frédéric Auguste Bartholdi, with the internal iron framework engineered by Gustave Eiffel, who later designed
+        the Eiffel Tower. The statue was completed in France in 1884, disassembled, and shipped to New York, where it
+        was reassembled and officially dedicated on October 28, 1886.
+        <br>
+        The Statue of Liberty is a powerful symbol of freedom, democracy, and hope for millions of immigrants who
+        arrived in the United States during the late 19th and early 20th centuries. For many, it was the first sight of
+        America as they entered through nearby Ellis Island, the nation’s busiest immigration station at the time. It
+        has since come to represent the ideals of equality, opportunity, and human rights.
+    </p>
+
+    <h3>Here are some more pictures of the liberty</h3>
+
+    <div class="image-gallery">
+        <button class="gallery-button prev" onclick="changeImage(-1, 'liberty')">Previous</button>
+        <img id="liberty-gallery-image" src="images/liberty new york.jpg" width="721"
+            alt="Click next to see more images">
+        <button class="gallery-button next" onclick="changeImage(1, 'liberty')">Next</button>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

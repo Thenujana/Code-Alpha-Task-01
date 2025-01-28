@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body style="background-color: aliceblue">
+    <center>
+        <h1>The Colosseum In Rome</h1>
+    </center>
+    <img src="images/rome.avif" alt="" class="center">
+    <p>(Get the cursor on the picture to zoom)</p>
+    <p>The Colosseum, also known as the Flavian Amphitheatre, is an ancient landmark in the heart of Rome, Italy, and
+        one of the most iconic symbols of Roman architecture and engineering. Built between 70-80 AD under the reign of
+        the Flavian emperors, it remains a UNESCO World Heritage Site and one of the most visited tourist attractions in
+        the world.</p>
+    <h3>Architectural Marvel</h3>
+    <p>The Colosseum is an elliptical amphitheater made primarily of concrete and sand. It stands as a testament to the
+        advanced engineering and construction techniques of ancient Rome. Measuring 189 meters long, 156 meters wide,
+        and towering 50 meters high, it was the largest amphitheater ever built in the Roman Empire and could
+        accommodate up to 50,000 to 80,000 spectators.</p>
+    <h3>Purpose and Use</h3>
+    <p>The Colosseum was used for a variety of public spectacles, including gladiatorial combats, animal hunts,
+        executions, reenactments of famous battles, and even mock naval battles during its early years. These events
+        were designed to entertain the public and demonstrate the might and grandeur of the Roman Empire.</p>
+    <h3>here are some more pictures </h3>
+    <div class="image-gallery">
+        <button class="gallery-button prev" onclick="changeImage(-1, 'colosseum')">Previous</button>
+        <img id="colosseum-gallery-image" src="images/colosseum2.jpg" width="721" alt="Click next to see more images">
+        <button class="gallery-button next" onclick="changeImage(1, 'colosseum')">Next</button>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

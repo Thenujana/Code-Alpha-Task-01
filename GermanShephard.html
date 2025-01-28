@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body style="background-color: aliceblue">
+    <center>
+        <H1>German Shephards</H1>
+    </center>
+    <img src="Animal images/german shephard.jpg" alt="" class="center">
+    <p>(Get the cursor on the picture to zoom)</p>
+
+    <h3>About</h3>
+    <p>German Shepherds, often called GSDs, are one of the most popular and versatile dog breeds in the world. Known for
+        their intelligence, loyalty, and strength, they excel as working dogs, family pets, and protectors. Originally
+        bred in Germany, German Shepherds are renowned for their exceptional abilities in tasks like guarding, herding,
+        search-and-rescue, and police or military work. Their adaptability and devotion have made them one of the most
+        beloved and recognized breeds globally.</p>
+    <h3>Historical Origin</h3>
+    <p>The German Shepherd breed was developed in the late 19th century in Germany by Max von Stephanitz, who aimed to
+        create the perfect working dog. By selecting and breeding dogs with excellent herding, guarding, and obedience
+        traits, he established the breed as a superior herding and service dog. The first German Shepherd was named
+        Horand von Grafrath and is considered the founding sire of the breed.
+
+        The breed’s versatility quickly gained international recognition, particularly during World War I and World War
+        II, when they served as messenger dogs, sentries, and search-and-rescue dogs. Their popularity spread worldwide,
+        and they became a favorite in military, police, and service work, as well as a beloved family companion.</p>
+
+    <h3>Here are some more pictures of German Shephards</h3>
+
+    <div class="image-gallery">
+        <button class="gallery-button prev" onclick="changeImage(-1, 'germanShephard')">Previous</button>
+        <img id="germanShephard-gallery-image" src="Animal images/german shephard.jpg" width="721"
+            alt="Click next to see more images">
+        <button class="gallery-button next" onclick="changeImage(1, 'germanShephard')">Next</button>
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
